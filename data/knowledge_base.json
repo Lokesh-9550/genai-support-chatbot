@@ -1,0 +1,42 @@
+[
+  {
+    "id": "kb-001",
+    "title": "How to reset your password",
+    "content": "To reset your password, go to the login page and click 'Forgot password'. Enter the email address linked to your account. You will receive a reset link valid for 30 minutes. Open the link, choose a new password with at least 8 characters, and confirm it. If you do not receive the email within 5 minutes, check your spam folder or request a new link."
+  },
+  {
+    "id": "kb-002",
+    "title": "Refund policy",
+    "content": "Refunds are available within 14 days of purchase for unused subscriptions. To request a refund, open a support ticket from your account dashboard and select 'Billing issue'. Refunds are processed to the original payment method within 5-7 business days. Partial-month usage may result in a prorated refund rather than a full refund."
+  },
+  {
+    "id": "kb-003",
+    "title": "Upgrading your subscription plan",
+    "content": "You can upgrade your plan at any time from Account Settings > Billing > Change Plan. Upgrades take effect immediately and you are billed a prorated amount for the remainder of the current cycle. Downgrades take effect at the start of the next billing cycle so you keep access to current features until then."
+  },
+  {
+    "id": "kb-004",
+    "title": "API rate limits",
+    "content": "Free tier accounts are limited to 60 API requests per minute and 1000 requests per day. Pro tier accounts get 600 requests per minute and unlimited daily requests. If you exceed the limit you will receive a 429 status code with a Retry-After header indicating how many seconds to wait before retrying."
+  },
+  {
+    "id": "kb-005",
+    "title": "Deleting your account",
+    "content": "To permanently delete your account, go to Account Settings > Privacy > Delete Account. This action is irreversible and removes all your data, including saved projects and billing history, within 30 days. You can cancel the deletion request within that 30-day grace period by logging back in and selecting 'Cancel deletion'."
+  },
+  {
+    "id": "kb-006",
+    "title": "Enabling two-factor authentication",
+    "content": "Two-factor authentication (2FA) adds an extra layer of security. Go to Account Settings > Security > Two-Factor Authentication and scan the QR code with an authenticator app like Google Authenticator or Authy. Enter the 6-digit code to confirm setup. Save your backup codes somewhere safe in case you lose access to your authenticator app."
+  },
+  {
+    "id": "kb-007",
+    "title": "Exporting your data",
+    "content": "You can export all your account data as a JSON or CSV file from Account Settings > Data > Export My Data. Exports are generated asynchronously and you will receive an email with a download link once ready, usually within 10 minutes for most accounts."
+  },
+  {
+    "id": "kb-008",
+    "title": "Contacting live support",
+    "content": "Live chat support is available Monday to Friday, 9 AM to 6 PM IST, for Pro and Enterprise customers. Free tier users can reach support via email at support@example.com with a typical response time of 24-48 hours. Enterprise customers also have access to a dedicated account manager."
+  }
+]

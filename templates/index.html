@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Support Chatbot</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="chat-container">
+    <header>
+      <h1>Support Assistant</h1>
+      <p class="subtitle">Ask about billing, account settings, or the API — I search our help center for you.</p>
+    </header>
+
+    <div id="chat-window" class="chat-window"></div>
+
+    <form id="chat-form" class="chat-form">
+      <input id="chat-input" type="text" placeholder="Ask a question..." autocomplete="off" required />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="{{ url_for('static', filename='chat.js') }}"></script>
+</body>
+</html>
